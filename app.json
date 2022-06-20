@@ -1,0 +1,80 @@
+{
+    "name": "ELLIOT",
+    "description": "تسمح لك بتشغيل الموسيقي والفيديو في ل=الدردشات الصوتيه.",
+    "keywords": ["ELLIOT", "ELLIOT-MUSIC", "موسيقي", "محادثات صوتيه", "تلجرام", "يوكي", "يوكي ميوزك", "موسيقي خاصه"],
+    "repository": "https://github.com/ZVMUSIC/ELLLIOT-MUSIC",
+  "stack": "container",
+    "env": {
+        "SESSION_NAME": {
+            "description": "ضع كود البيروجرام",
+            "required": true
+        },
+        "SESSION2": {
+            "description": "ضع كود البروجرام",
+            "required": false
+        },
+        "SESSION3": {
+            "description": "ضع كود البروجرام",
+            "required": false
+        },
+        "SESSION4": {
+            "description": "ضع كود البيروجرام",
+            "required": false
+        },
+        "SESSION5": {
+            "description": "ضع كود البيروجرام",
+            "required": false
+        },
+        "BOT_USERNAME": {
+            "description": "ضع معرف بوتك",
+            "required": true,
+            "value": "ELLIOT2_Robot"
+        },
+        "API_ID": {
+            "description": "ضع ايبي ايدي",
+            "required": true,
+            "value": "6435225"
+        },
+        "MONGO_DB_URL": {
+            "description": "لا تغيرها ابدا",
+            "required": true,
+            "value": "mongodb+srv://Cloner:Cloner@cluster0.cgc6t.mongodb.net/?retryWrites=true&w=majority"
+        },
+        "API_HASH": {
+            "description": "ضع ايبي هاش",
+            "required": false,
+            "value": "4e984ea35f854762dcde906dce426c2d"
+        },
+        "HEROKU_MODE": {
+            "description": "لا تغيرها ابدا ابدا هيا لمنع حظر هيروكو",
+            "required": false,
+            "value": "ENABLE"
+        },
+        "GROUP_SUPPORT": {
+            "description": "ضع يوزر جروبك",
+            "required": false,
+            "value": "V_O_T_L"
+        },
+        "UPDATES_CHANNEL": {
+            "description": "ضع قناة التحديث",
+            "required": false,
+            "value": "Confgat_EG"
+        },
+        "SUDO_USERS": {
+            "description": "ضع معرف الادمن.",
+            "required": true,
+            "value": "1669178360"
+        },
+        "DURATION_LIMIT": {
+            "description": "filled, don't change this !",
+            "required": true,
+            "value": "540000"
+        },
+        "BOT_TOKEN": {
+            "description": "ضع توكن بوتك",
+            "required": true,
+            "value": ""
+        }
+
+    }
+  }
